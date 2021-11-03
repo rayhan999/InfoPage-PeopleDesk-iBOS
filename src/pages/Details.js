@@ -10,57 +10,57 @@ import Topbar from '../Components/Topbar/Topbar';
 const Details = () => {
     const GItableBodyCol1 =
     {
-        "Email": "title000000000Header000",
-        "National ID": "123",
-        "RF ID": 123,
-        "Marital Status": 123,
-        "Nationality": 123,
-        "Religion": 123,
+        "Email": "bill.sanders@example.com",
+        "National ID": "199990245612",
+        "RF ID": "-N/A-",
+        "Marital Status": "Single",
+        "Nationality": "Bangladeshi",
+        "Religion": "Islam",
     }
     const GItableBodyCol2 =
     {
-        "Mobile Number": "title Header",
-        "Passport No.": "123",
-        "Date of Birth": 123,
-        "Gender": 123,
-        "Blood Group": 123
+        "Mobile Number": "+8801234556812",
+        "Passport No.": "199024561241",
+        "Date of Birth": "Dec 20, 1997",
+        "Gender": "Male",
+        "Blood Group": "A+(ve)"
     }
     const GIHeader =
     {
         "avatar": "http://",
-        "name": "GIT",
-        "position": "left"
+        "name": "Shakil Al Kabir",
+        "position": "HR Manager"
     }
     const FItableBodyCol1 =
     {
-        "Account Number": "title Header",
-        "Bank Name": "123",
-        "Branch Name": 123,
-        "District": 123,
-        "Swift Code": 123
+        "Account Number": "123 4567 4568",
+        "Bank Name": "Basic Bank ",
+        "Branch Name": "Mohammadpur Branch",
+        "District": "Dhaka",
+        "Swift Code": "01234"
     }
     const FItableBodyCol2 =
     {
-        "Account Type": "title Header",
-        "Account Number": "123"
+        "Account Type": "Savings Account",
+        "Account Number": "123 4567 4568"
     }
     const ADtableBodyCol1 =
     {
-        "House": "title Header",
-        "Road": "123",
-        "City": 123,
-        "District": 123,
-        "Division": 123,
-        "Country": 123
+        "House": "402",
+        "Road": "Sher-E-Bangla Road",
+        "City": "Dhaka",
+        "District": "Dhaka",
+        "Division": "Dhaka",
+        "Country": "Bangladesh"
     }
     const ADtableBodyCol2 =
     {
-        "House": "title Header",
-        "Road": "123",
-        "City": 123,
-        "District": 123,
-        "Division": 123,
-        "Country": 123
+        "House": "402",
+        "Road": "Sher-E-Bangla Road",
+        "City": "Dhaka",
+        "District": "Dhaka",
+        "Division": "Dhaka",
+        "Country": "Bangladesh"
     }
     const FIHeader =
     {
@@ -73,60 +73,61 @@ const Details = () => {
     }
     const PrItableBodyCol1 =
     {
-        "Employment Status": "title Header",
-        "Department": "123",
-        "Designation": 123,
-        "Rank": 123,
-        "Job Level": 123
+        "Employment Status": "Full-Time",
+        "Department": "Development",
+        "Designation": "Front-End Developer",
+        "Rank": "-----------",
+        "Job Level": "Junior"
     }
     const PrItableBodyCol2 =
     {
-        "Source of Hire": "title Header",
-        "Work Phone": "123",
-        "Appointment Date": 123,
-        "Joining Date": 123,
-        "Supervisor": 123,
-        "Line Manager": 123
+        "Source of Hire": "Social Media",
+        "Work Phone": "+8801952430158",
+        "Appointment Date": "Oct 05, 2021",
+        "Joining Date": "Oct 05, 2021",
+        "Supervisor": "Sayed Ahmed",
+        "Line Manager": "Al Amin Hossain"
     }
     const AItableBodyCol1 =
     {
-        "Payroll Group": "title Header",
-        "Configure Type": "123",
-        "Calender Name": 123,
-        "Organization Structure": 123,
-        "remuneration Type": 123
+        "Payroll Group": "-----------",
+        "Configure Type": "-----------",
+        "Calender Name": "-----------",
+        "Organization Structure": "-----------",
+        "remuneration Type": "-----------"
     }
     const AItableBodyCol2 =
     {
-        "Training Title": "title Header",
-        "Issuing Organization": "123",
-        "Training Year": 123,
-        "Duration(Days)": 123,
-        "Expiration Date": 123,
-        "Training Covered On": 123
+        "Training Title": "-----------",
+        "Issuing Organization": "iBOS ltd.",
+        "Training Year": "2021",
+        "Duration(Days)": "90 Days",
+        "Expiration Date": "Dec 2026",
+        "Training Covered On": "Dec 2021"
     }
     const ExptableBodyCol1 =
     {
-        "Company Name": "title Header",
-        "Job Title": "123",
-        "Job Description": 123,
-        "From Date": 123,
-        "To Date": 123
+        "Institution Name": "ABC Technology",
+        "Degree": "HR Manager",
+        "Field (of) Study": "Dictum viverra eu, urna, ut morbi ultrices in eget quis. Massa... ",
+        "Year of Education": "10 Jan 2019",
+        "Grade/GPA/CGPA": "30 Aug 2020"
     }
     const ExptableBodyCol2 =
     {
-        "Institution Name": "title Header",
-        "Degree": "123",
-        "Field (of) Study": 123,
-        "Year of Education": 123,
-        "Grade/GPA/CGPA": 123
+        "Company Name": "Dhaka University",
+        "Job Title": "M.A.",
+        "Job Description": "HR Management",
+        "From Date": "2018",
+        "To Date": "3.90"
     }
+    
     return (
         <div>
             {/* <MenuNavbar></MenuNavbar> */}
             <div>
                 {/* <Topbar></Topbar> */}
-                <Container maxWidth="xl">
+                <Container maxWidth="xl" className="mb-5">
                 
                             <TitleHeader></TitleHeader>
                             <CardTitle title={'Basic Information'}></CardTitle>
