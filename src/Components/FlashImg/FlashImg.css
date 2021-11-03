@@ -1,0 +1,21 @@
+.flashImg {
+    position: absolute;
+    width   : 128px;
+    height  : 128px;
+    left    : 64px;
+    top     : 100px;
+
+    background   : #FFFFFF;
+    box-shadow   : 0px 0px 12px #DBDCDD;
+    border-radius: 150px;
+}
+
+.img {
+    position     : absolute;
+    width        : 96px;
+    height       : 96px;
+    left         : 16px;
+    top          : 16px;
+    border-radius: 150px;
+    background   : url(../../images/flashImg.png);
+}
