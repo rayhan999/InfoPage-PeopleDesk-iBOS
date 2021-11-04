@@ -1,0 +1,79 @@
+.modal-title {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-body-title .title {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 18px;
+    line-height: 21px;
+    color      : rgba(0, 0, 0, 0.6);
+}
+
+.modal-body-title .website {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : rgba(0, 0, 0, 0.6);
+}
+
+.modal-body-title .address {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : rgba(0, 0, 0, 0.6);
+}
+
+.element-body .element-title {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    margin: 8px 0px;
+    color : rgba(0, 0, 0, 0.6);
+}
+
+.element-body .element-subtitle {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 16px;
+
+    color : rgba(0, 0, 0, 0.4);
+    margin: 8px 0px;
+}
+
+.modal-footer {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.15px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.closeBTN {
+    height: 14px !important;
+    width : 14px !important;
+}

@@ -1,0 +1,20 @@
+.titleCard {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.docuTypeCard:hover {
+    box-shadow   : 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.docuTypeCard:hover .iconButton {
+    opacity: 1;
+}

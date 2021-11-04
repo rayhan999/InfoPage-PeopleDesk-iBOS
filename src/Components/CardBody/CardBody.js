@@ -13,7 +13,7 @@ const CardBody = (props) => {
     };
     // console.log("gi", props);
     return (
-        <div className="card shadow rounded mt-3 infoCard" >
+        <div className="card shadow rounded mt-3  infoCard" >
             <div className="card-header d-flex justify-content-between">
                 <h5 className="overTitle">{title}</h5>
                 <PrintOutlinedIcon />
